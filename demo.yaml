@@ -1,0 +1,33 @@
+confs:
+  width: 1280
+  height: 960
+  fps: 20
+clips:
+  - between: [0:0, 0:20]
+    foregrounds:
+      where: [0.5, 0.5]
+      text: 
+        - News Bulletin
+        - ( 19 / 04 / 2025 )
+      spacing: 0.1
+    audio: 19th April, 2025
+    subtitle: 19th April, 2025
+  - between: [0:20, 0:40]
+    foregrounds:
+      where: [0.5, 0.5]
+      text: 
+        - Headlines 1
+        -  
+        - Description
+        - 
+        - Paragraph
+      spacing: 0.1
+    audio: Description
+    subtitle: Headlines 1
+  - between: [0:40, 0:60]
+    foregrounds:
+      where: [0.5, 0.5]
+      text: Thank you
+      spacing: 0.1
+    audio: Thank you
+    subtitle: Thank you
