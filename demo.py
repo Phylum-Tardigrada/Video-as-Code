@@ -87,12 +87,14 @@ class Foregrounds:
 
     def __init__(self, fgs, frame, confs):
     
+        import math
         if type(fgs) == list:
             for obj in fgs:
+                
                 fg = Foreground(obj).img
 
                 fh, fw = fg.shape[:2]
-                x, y = frame.shape[1] // 2, frame.shape[0] // 2  # Center of frame
+                x, y = math.floor(frame.shape[1] * obj['where'][0]), math.floor(frame.shape[0] * obj['where'][1])  # Center of frame
 
                 # Calculate half-sizes
                 h_half, w_half = fh // 2, fw // 2
@@ -104,7 +106,7 @@ class Foregrounds:
             fg = Foreground(obj).img
 
             fh, fw = fg.shape[:2]
-            x, y = frame.shape[1] // 2, frame.shape[0] // 2  # Center of frame
+            x, y = math.floor(frame.shape[1] * obj['where'][0]), math.floor(frame.shape[0] * obj['where'][1])  # Center of frame
 
             # Calculate half-sizes
             h_half, w_half = fh // 2, fw // 2

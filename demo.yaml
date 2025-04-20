@@ -5,29 +5,71 @@ confs:
 clips:
   - between: [0:0, 0:20]
     foregrounds:
-      where: [0.5, 0.5]
-      text: 
-        - News Bulletin
-        - ( 19 / 04 / 2025 )
-      spacing: 0.1
-    audio: 19th April, 2025
-    subtitle: 19th April, 2025
+      - where: [0.5, 0.4]
+        text: 
+          - News Bulletin
+          - ( 13 April to 20 April )
+      - where: [0.5, 0.6]
+        text: 
+          - This week's tech news includes antitrust rulings against Google, 
+          - Apple's smartphone market share decline in China, and advancements in AI, 
+          - particularly generative AI and its applications in customer service. 
+          - Additionally, there are reports on chipmaker concerns regarding China's AI market 
+          - and a half-marathon race featuring humanoid robots. 
+    audio: 13 April to 20 April
+    subtitle: 13 April to 20 April
   - between: [0:20, 0:40]
     foregrounds:
-      where: [0.5, 0.5]
-      text: 
-        - Headlines 1
-        -  
-        - Description
-        - 
-        - Paragraph
-      spacing: 0.1
+      - where: [0.5, 0.2]
+        text: Antitrust and Legal
+      - where: [0.5, 0.4]
+        text: 
+          - Google faces antitrust losses
+          - 
+          - US courts have declared Google a monopoly in both search and ad technology. 
+          - 
+          - Google's adtech monopoly
+          - 
+          - Google is found to have illegally maintained its advertising monopoly.
+          - 
+          - Oregon sues Coinbase
+          - 
+          - The state of Oregon has filed a lawsuit against Coinbase, alleging it sells unregistered securities. 
+      - where: [0.5, 0.7]
+        text: Smartphone Market
+      - where: [0.5, 0.8]
+        text: 
+          - Apple's China shipments decline
+          - 
+          - Apple's smartphone shipments in China experienced a 9% decrease in the first quarter. 
     audio: Description
     subtitle: Headlines 1
   - between: [0:40, 0:60]
     foregrounds:
-      where: [0.5, 0.5]
-      text: Thank you
-      spacing: 0.1
+      - where: [0.5, 0.2]
+        text: AI and Robotics
+      - where: [0.5, 0.4]
+        text: 
+          - "AI customer service chatbots: An AI chatbot made up a company policy," 
+          - highlighting the need for careful AI implementation.
+          - "Humanoid robots race: China held a half-marathon race featuring 21 humanoid robots,"
+          - showcasing advancements in robotics. 
+          - "AI as an enabler: AI is being viewed as a tool to enhance existing processes, not replace them,"
+          - particularly in India's BPM industry.
+      - where: [0.5, 0.7]
+        text: Other Notable News
+      - where: [0.5, 0.8]
+        text: 
+          - Apple's "buy now, pay later" strategy
+          - NATO focuses on AI and robotics. 
+          - Climate tech advancements
+          - New Nintendo Switch 2
     audio: Thank you
     subtitle: Thank you
+  - between: [01:00, 01:10]
+    foregrounds:
+      - where: [0.5, 0.5]
+        text: Thanks you
+    audio: Thank you
+    subtitle: Thank you
+
