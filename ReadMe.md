@@ -1,6 +1,6 @@
 # Architecture
 
-- ![](https://github.com/Phylum-Tardigrada/Video-as-Code/blob/main/Screenshot_2025-04-26_110556.png?raw=true)
+![](https://github.com/Phylum-Tardigrada/Video-as-Code/blob/main/Screenshot_2025-04-26_110556.png?raw=true)
 
 # Example Script
 
@@ -48,7 +48,7 @@ Let’s break down the 1938 Orson Welles “War of the Worlds” broadcast incid
 
 visual storyboard or diagram of this structure
 
-- ![](https://github.com/Phylum-Tardigrada/Video-as-Code/blob/main/sample-storyboard.png?raw=true)
+![](https://github.com/Phylum-Tardigrada/Video-as-Code/blob/main/sample-storyboard.png?raw=true)
 
 # Output
 
